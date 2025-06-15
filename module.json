@@ -25,17 +25,7 @@
   "media": [
     {
       "type": "screenshot",
-              "url": "https://github.com/Sub-Dev/token-stack-selector/raw/main/screenshots/demo.gif"
+      "url": "https://github.com/Sub-Dev/token-stack-selector/raw/main/screenshots/demo.gif"
     }
-  ],
-  "keywords": [
-    "tokens",
-    "selection",
-    "stacked",
-    "interface",
-    "ui",
-    "ux",
-    "foundry",
-    "vtt"
   ]
 }
