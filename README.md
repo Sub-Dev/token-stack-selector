@@ -63,7 +63,7 @@
 
 ### 🎬 **Demo in Action**
 
-![Token Stack Selector Demo](https://github.com/Sub-Dev/token-stack-selector/raw/main/screenshots/demo.gif)
+![Token Stack Selector Demo](https://github.com/Sub-Dev/token-stack-selector/blob/master/screenshots/test-gif.gif)
 
 _Complete workflow: hover preview → HUD button → selection panel → token selection_
 
@@ -71,7 +71,7 @@ _Complete workflow: hover preview → HUD button → selection panel → token s
 
 ### 🖱️ **Hover Preview**
 
-![Hover Preview](https://github.com/Sub-Dev/token-stack-selector/raw/main/screenshots/hover-preview.png)
+![Hover Preview](https://github.com/Sub-Dev/token-stack-selector/blob/master/screenshots/menu-hover.png)
 
 _Modern preview showing stacked tokens when hovering (800ms delay)_
 
@@ -79,17 +79,17 @@ _Modern preview showing stacked tokens when hovering (800ms delay)_
 
 ### 🎯 **Selection Panel**
 
-![Selection Panel](https://github.com/Sub-Dev/token-stack-selector/raw/main/screenshots/selection-panel.png)
+![Selection Panel](https://github.com/Sub-Dev/token-stack-selector/blob/master/screenshots/menu-token-select.png)
 
 _Elegant selection interface with token details and smart positioning_
 
 ---
 
-### 📚 **Stacked Tokens**
+### 📚 **Token Menu**
 
-![Stacked Tokens](https://github.com/Sub-Dev/token-stack-selector/raw/main/screenshots/stacked-tokens.png)
+![Token Menu](https://github.com/Sub-Dev/token-stack-selector/blob/master/screenshots/menu.png)
 
-_HUD button automatically appears when multiple tokens occupy the same position_
+_Complete interface showing all module features in action_
 
 ## 🔧 Compatibility
 

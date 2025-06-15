@@ -63,7 +63,7 @@
 
 ### 🎬 **Demo em Ação**
 
-![Token Stack Selector Demo](https://github.com/Sub-Dev/token-stack-selector/raw/main/screenshots/demo.gif)
+![Token Stack Selector Demo](https://github.com/Sub-Dev/token-stack-selector/blob/master/screenshots/test-gif.gif)
 
 _Fluxo completo: preview hover → botão HUD → painel de seleção → seleção de token_
 
@@ -71,7 +71,7 @@ _Fluxo completo: preview hover → botão HUD → painel de seleção → seleç
 
 ### 🖱️ **Preview ao Passar o Mouse**
 
-![Hover Preview](https://github.com/Sub-Dev/token-stack-selector/raw/main/screenshots/hover-preview.png)
+![Hover Preview](https://github.com/Sub-Dev/token-stack-selector/blob/master/screenshots/menu-hover.png)
 
 _Preview moderno mostrando tokens empilhados ao passar o mouse (delay de 800ms)_
 
@@ -79,17 +79,17 @@ _Preview moderno mostrando tokens empilhados ao passar o mouse (delay de 800ms)_
 
 ### 🎯 **Painel de Seleção**
 
-![Selection Panel](https://github.com/Sub-Dev/token-stack-selector/raw/main/screenshots/selection-panel.png)
+![Selection Panel](https://github.com/Sub-Dev/token-stack-selector/blob/master/screenshots/menu-token-select.png)
 
 _Interface elegante de seleção com detalhes dos tokens e posicionamento inteligente_
 
 ---
 
-### 📚 **Tokens Empilhados**
+### 📚 **Menu de Tokens**
 
-![Stacked Tokens](https://github.com/Sub-Dev/token-stack-selector/raw/main/screenshots/stacked-tokens.png)
+![Token Menu](https://github.com/Sub-Dev/token-stack-selector/blob/master/screenshots/menu.png)
 
-_Botão do HUD aparece automaticamente quando múltiplos tokens ocupam a mesma posição_
+_Interface completa mostrando todas as funcionalidades do módulo em ação_
 
 ## 🔧 Compatibilidade
 
