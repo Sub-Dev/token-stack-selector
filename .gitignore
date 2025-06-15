@@ -65,6 +65,13 @@ dist/
 build/
 *.zip
 
+# Source maps (if generated)
+*.map
+
+# Development files
+.vscode/settings.json
+*.local.js
+
 # Temporary files
 *.tmp
 *.temp 
