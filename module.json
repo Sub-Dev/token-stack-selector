@@ -1,0 +1,41 @@
+{
+  "id": "token-stack-selector",
+  "title": "Token Stack Selector",
+  "description": "Interface moderna para seleção de tokens empilhados no Foundry VTT. Permite escolher facilmente entre tokens sobrepostos com um painel elegante similar ao sistema de condições.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Sub-Dev",
+      "discord": "sub-dev"
+    }
+  ],
+  "esmodules": ["main.js"],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12",
+    "maximum": "13"
+  },
+  "url": "https://github.com/Sub-Dev/token-stack-selector",
+  "manifest": "https://github.com/Sub-Dev/token-stack-selector/releases/latest/download/module.json",
+  "download": "https://github.com/Sub-Dev/token-stack-selector/releases/latest/download/token-stack-selector.zip",
+  "bugs": "https://github.com/Sub-Dev/token-stack-selector/issues",
+  "changelog": "https://github.com/Sub-Dev/token-stack-selector/releases",
+  "readme": "https://github.com/Sub-Dev/token-stack-selector/blob/main/README.md",
+  "license": "https://github.com/Sub-Dev/token-stack-selector/blob/main/LICENSE",
+  "media": [
+    {
+      "type": "screenshot",
+              "url": "https://github.com/Sub-Dev/token-stack-selector/raw/main/screenshots/demo.gif"
+    }
+  ],
+  "keywords": [
+    "tokens",
+    "selection",
+    "stacked",
+    "interface",
+    "ui",
+    "ux",
+    "foundry",
+    "vtt"
+  ]
+}

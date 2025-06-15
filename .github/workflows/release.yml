@@ -1,0 +1,84 @@
+name: Release Module
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Extract version from tag
+        id: extract_version
+        run: echo "version=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+
+      - name: Update module.json version
+        run: |
+          sed -i 's/"version": ".*"/"version": "${{ steps.extract_version.outputs.version }}"/' module.json
+
+      - name: Create module archive
+        run: |
+          zip -r token-stack-selector.zip . \
+            -x "*.git*" \
+            -x "node_modules/*" \
+            -x "dist/*" \
+            -x "*.md" \
+            -x "screenshots/*" \
+            -x ".github/*"
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ steps.extract_version.outputs.version }}
+          body: |
+            ## 🚀 Token Stack Selector v${{ steps.extract_version.outputs.version }}
+
+            ### 📦 Instalação
+
+            **Método 1: Automática**
+            ```
+            https://github.com/${{ github.repository }}/releases/latest/download/module.json
+            ```
+
+            **Método 2: Manual**
+            Baixe o arquivo `token-stack-selector.zip` e extraia na pasta `Data/modules/` do Foundry VTT.
+
+            ### 📋 Changelog
+
+            Veja as mudanças completas no [CHANGELOG.md](https://github.com/${{ github.repository }}/blob/main/CHANGELOG.md).
+
+            ---
+
+            **Compatibilidade**: Foundry VTT v11-v12
+
+          draft: false
+          prerelease: false
+
+      - name: Upload module.json
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./module.json
+          asset_name: module.json
+          asset_content_type: application/json
+
+      - name: Upload module archive
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./token-stack-selector.zip
+          asset_name: token-stack-selector.zip
+          asset_content_type: application/zip
