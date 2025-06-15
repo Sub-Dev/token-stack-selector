@@ -2,7 +2,7 @@
   "id": "token-stack-selector",
   "title": "Token Stack Selector",
   "description": "Interface moderna para seleção de tokens empilhados no Foundry VTT. Permite escolher facilmente entre tokens sobrepostos com um painel elegante similar ao sistema de condições.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "authors": [
     {
       "name": "Sub-Dev",
