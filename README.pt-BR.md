@@ -6,6 +6,8 @@
 
 > 🇺🇸 **English speakers**: Check out [README.md](README.md) for the English version.
 
+![Token Stack Selector Demo](https://github.com/Sub-Dev/token-stack-selector/blob/master/screenshots/test-gif.gif)
+
 ## 📋 Descrição
 
 **Token Stack Selector** é um módulo moderno para Foundry VTT que soluciona o problema de tokens empilhados (sobrepostos). Quando múltiplos tokens ocupam a mesma posição no grid, este módulo adiciona uma interface elegante e intuitiva para selecionar facilmente o token desejado.
