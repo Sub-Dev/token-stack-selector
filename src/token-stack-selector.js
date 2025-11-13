@@ -79,9 +79,9 @@ export class TokenStackSelector {
 
       // Adiciona botão ao HUD
       const button = TokenStackButton.addToHUD(
-        html,
+        $(html),
         visibleTokens.length,
-        () => this.handleButtonClick(visibleTokens, html, button)
+        () => this.handleButtonClick(visibleTokens, $(html), button)
       );
 
     } catch (error) {
