@@ -1,48 +1,61 @@
 # Changelog
 
-Todas as mudanças notáveis deste projeto serão documentadas neste arquivo.
+All notable changes to this project will be documented in this file.
 
-O formato é baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/),
-e este projeto adere ao [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.0.3] - 2024-XX-XX
+
+### Changed
+
+- 🔄 Converted HTML to jQuery for Foundry VTT v13 compatibility
+- 📦 Updated manifest to version 1.0.3
+
+### Fixed
+
+- ✅ Improved compatibility with Foundry VTT v13
+
+---
 
 ## [1.0.0] - 2024-01-XX
 
-### Adicionado
+### Added
 
-- ✨ Interface moderna para seleção de tokens empilhados
-- 🎯 Ícone único combinando grupo de usuários + mira
-- 🎨 Design premium similar ao painel de condições do Foundry
-- 📊 Contador visual mostrando quantos tokens estão empilhados
-- 🖱️ Seleção inteligente que traz o token para frente automaticamente
-- 📱 Posicionamento inteligente do painel (não sai da tela)
-- ⌨️ Suporte a múltiplas formas de fechar (ESC, clique fora, seleção)
-- 🔄 Sistema de restauração automática do z-index
-- 📋 Informações detalhadas dos tokens (nome, tipo, HP)
-- 🎭 Animações suaves e feedback visual
-- 📜 Scrollbar customizada para muitos tokens
-- 🔧 Compatibilidade com Foundry VTT v11-v12
+- ✨ Modern interface for selecting stacked tokens
+- 🎯 Unique icon combining user group + crosshairs
+- 🎨 Premium design similar to Foundry's condition panel
+- 📊 Visual counter showing how many tokens are stacked
+- 🖱️ Smart selection that automatically brings token to front
+- 📱 Smart panel positioning (stays within screen bounds)
+- ⌨️ Support for multiple ways to close (ESC, click outside, selection)
+- 🔄 Automatic z-index restoration system
+- 📋 Detailed token information (name, type, HP)
+- 🎭 Smooth animations and visual feedback
+- 📜 Custom scrollbar for many tokens
+- 🔧 Compatibility with Foundry VTT v11-v12
 
-### Funcionalidades
+### Features
 
-- **Token HUD Integration**: Botão aparece automaticamente quando há tokens empilhados
-- **Drag & Drop**: Token selecionado pode ser movido imediatamente
-- **Visual Feedback**: Notificações confirmando ações
-- **Responsive Design**: Interface se adapta ao tamanho da tela
-- **Performance**: Otimizado para não afetar performance do jogo
-
----
-
-## [Não Lançado]
-
-### Planejado
-
-- 🌐 Suporte a múltiplos idiomas
-- ⚙️ Configurações do módulo
-- 🎨 Temas customizáveis
-- 📊 Estatísticas de uso
-- 🔍 Filtros de tokens
-- 🎮 Atalhos de teclado
+- **Token HUD Integration**: Button automatically appears when tokens are stacked
+- **Drag & Drop**: Selected token can be moved immediately
+- **Visual Feedback**: Notifications confirming actions
+- **Responsive Design**: Interface adapts to screen size
+- **Performance**: Optimized to not affect game performance
 
 ---
 
-_Formato baseado em [Keep a Changelog](https://keepachangelog.com/)_
+## [Unreleased]
+
+### Planned
+
+- 🌐 Multi-language support
+- ⚙️ Module settings
+- 🎨 Customizable themes
+- 📊 Usage statistics
+- 🔍 Token filters
+- 🎮 Keyboard shortcuts
+
+---
+
+_Format based on [Keep a Changelog](https://keepachangelog.com/)_
